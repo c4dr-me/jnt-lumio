@@ -62,14 +62,14 @@ Build an AI-powered meeting notes summarizer and sharer. The user uploads a tran
   Serverless, scalable rate limiting.
 - **shadcn/ui & Tailwind CSS:**  
   Minimal, accessible UI components for rapid prototyping.
-- **Lexical Editor:**  
-  Modern, extensible rich text editing for summary editing using tiptap.
+- **Lexical Editor, marked & ReactMarkdown:**  
+  Modern, extensible rich text editing for summary editing using tiptap and marked and reactMarkdown for parsing and displaying in UI.
 
 ---
 
 ## Tech Stack
 
-- **Frontend:** Next.js 14, React 19, TypeScript, Tailwind CSS, shadcn/ui, Lexical
+- **Frontend:** Next.js 14, React 19, TypeScript, Tailwind CSS, shadcn/ui, TipTap, Marked, ReactMarkdown
 - **Backend:** Next.js API Routes, Prisma ORM
 - **Database:** PostgreSQL
 - **AI:** Groq API (LLaMA models)
