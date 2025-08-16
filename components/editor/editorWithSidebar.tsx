@@ -99,6 +99,7 @@ export function EditorWithSidebar({
         toast.error(result.message);
       }
       setShareResult(result);
+      toast.info("If you don't see the email, please check your spam folder.");
     } catch (error: any) {
       console.error(error);
       toast.error(`${error.message}: Failed to share summary`);

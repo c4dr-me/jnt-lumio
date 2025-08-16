@@ -4,6 +4,8 @@
 
 Build an AI-powered meeting notes summarizer and sharer. The user uploads a transcript, provides a custom prompt, generates an AI summary, edits it, and shares it via email.
 
+> **Note:** If you do not see the summary email in your inbox, please check your spam or junk folder.
+
 ## Screenshots
 
 ### Editor View
@@ -234,4 +236,4 @@ This application is configured with strict HTTP security headers in `next.config
 - **Permissions-Policy:**  
   Disables access to sensitive APIs like microphone and camera.
 
-These headers are set globally for all routes, providing a strong
+These headers are set globally for all routes, providing a strong security baseline for the application.
